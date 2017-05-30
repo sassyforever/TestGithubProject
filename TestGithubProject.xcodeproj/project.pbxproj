@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE4A70201EDD6E4500C83D2D /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A701F1EDD6E4500C83D2D /* TestClass.swift */; };
 		DED550471EDD5DA100AC7646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED550461EDD5DA100AC7646 /* AppDelegate.swift */; };
 		DED550491EDD5DA100AC7646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED550481EDD5DA100AC7646 /* ViewController.swift */; };
 		DED5504C1EDD5DA100AC7646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED5504A1EDD5DA100AC7646 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE4A701F1EDD6E4500C83D2D /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		DED550431EDD5DA100AC7646 /* TestGithubProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGithubProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED550461EDD5DA100AC7646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DED550481EDD5DA100AC7646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				DED550461EDD5DA100AC7646 /* AppDelegate.swift */,
 				DED550481EDD5DA100AC7646 /* ViewController.swift */,
+				DE4A701F1EDD6E4500C83D2D /* TestClass.swift */,
 				DED5504A1EDD5DA100AC7646 /* Main.storyboard */,
 				DED550501EDD5DA100AC7646 /* Assets.xcassets */,
 				DED550521EDD5DA100AC7646 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				DED5504F1EDD5DA100AC7646 /* TestGithubProject.xcdatamodeld in Sources */,
 				DED550491EDD5DA100AC7646 /* ViewController.swift in Sources */,
+				DE4A70201EDD6E4500C83D2D /* TestClass.swift in Sources */,
 				DED550471EDD5DA100AC7646 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				DED5505A1EDD5DA100AC7646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
