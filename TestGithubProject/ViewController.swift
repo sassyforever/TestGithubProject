@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    func sayhi()
+    {
+        print("hi")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        sayhi()
     }
 
     override func didReceiveMemoryWarning() {
