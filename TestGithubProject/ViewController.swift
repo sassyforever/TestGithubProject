@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    func testMaster(){
+        print("This is master Branch!!")
+    }
+    
     func sayhi()
     {
         print("hi")
